@@ -1,0 +1,28 @@
+.chat-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 0 8%;
+    align-items: center;
+    height: 13%;
+    min-height: 60px;
+    width: 100%;
+    background-color: #111b21;
+    cursor: pointer;
+    border-bottom: 1px rgba(255, 255, 255, 0.25) solid;
+    border-top: 1px rgba(255, 255, 255, 0.25) solid;
+}
+
+.name {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.time {
+    font-size: smaller;
+}
+
+.selected {
+    background-color: #202c33;
+}

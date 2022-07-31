@@ -1,0 +1,22 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7%;
+    padding: none;
+}
+
+.search input {
+    border-radius: 5px;
+    margin: 2% 4%;
+    height: 96%;
+    width: 92%;
+    background-color: #202c33;
+    border: none;
+    color: aliceblue;
+}
+
+input:focus,
+input:active {
+    outline: none;
+}

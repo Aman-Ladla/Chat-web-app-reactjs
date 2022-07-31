@@ -1,0 +1,18 @@
+.mobile-nav {
+    margin: 2vh 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 96vh;
+    width: 70%;
+    background: #0a1014;
+    box-shadow: 1px 0 8px rbga(0, 0, 0, 0.26);
+    transition: transform 0.3s ease-out;
+    transform: translateX(-100%);
+    z-index: 200;
+    border: 1px rgba(255, 255, 255, 0.25) solid;
+}
+
+.open {
+    transform: translateX(0);
+}

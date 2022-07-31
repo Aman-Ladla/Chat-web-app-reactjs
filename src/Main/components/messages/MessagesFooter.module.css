@@ -1,0 +1,52 @@
+.messages-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 0 2%;
+    background-color: #202c33;
+}
+
+.messages-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding: 0 2%;
+}
+
+.image-preview {
+    width: 40vh;
+    height: 40vh;
+}
+
+.image-preview img {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+
+svg {
+    color: #c7cace;
+    width: 5%;
+    height: 30%;
+    cursor: pointer;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 50%;
+    min-height: 40px;
+    background-color: #29373f;
+}
+
+textarea:focus,
+textarea:active {
+    outline: none;
+}

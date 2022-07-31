@@ -1,0 +1,22 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    height: 80%;
+    width: 80%;
+    background-color: #111b21;
+    overflow: scroll;
+}
+
+.messages > :first-child {
+    margin-top: auto !important;
+}
+
+.messages-not-overflow {
+    overflow: auto;
+    /* justify-content: flex-end; */
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}

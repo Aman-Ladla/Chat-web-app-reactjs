@@ -1,0 +1,26 @@
+.new-conversation {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 24vw;
+    bottom: 13vh;
+    height: 4vw;
+    width: 4vw;
+    font-size: 3vw;
+    background-color: #202c33;
+    border-radius: 50px;
+    color: #c7cace;
+}
+
+@media (max-width: 550px) {
+    .new-conversation {
+        left: 50vw;
+        bottom: 20vh;
+        height: 7vh;
+        width: 7vh;
+        font-size: 5vh;
+    }
+}

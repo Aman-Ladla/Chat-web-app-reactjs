@@ -1,0 +1,30 @@
+.new-conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-conversation input {
+    display: block;
+    width: 80%;
+    height: 5vh;
+    background-color: #202c33;
+    color: aliceblue;
+    border: 1px #32333d solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.filter-user {
+    margin: 5px;
+    padding: 0 3%;
+    background-color: #202c33;
+    color: aliceblue;
+    border: 1px #32333d solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 90%;
+}
