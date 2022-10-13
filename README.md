@@ -8,7 +8,7 @@ It uses React as framework for development and Vanilla CSS for styling.
 
 ### `Detailed Features`
 
-* Responsive so application can be used on any mobile, tablet, laptop or pc.
+* Is responsive so application can be used on any mobile, tablet, laptop or pc.
 
 * Contains web sockets thus has functionality of updates in real time.
 
