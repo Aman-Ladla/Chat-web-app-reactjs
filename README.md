@@ -15,3 +15,9 @@ It uses React as framework for development and Vanilla CSS for styling.
 ### `Backend`
 
 It uses NodeJs for backend. More information about backend can be found here: [https://github.com/Aman-Ladla/Chat-web-app-nodejs](https://github.com/Aman-Ladla/Chat-web-app-nodejs).
+
+### `SnapShot`
+
+![SnapShot 1](https://github.com/Aman-Ladla/Chat-web-app-reactjs/blob/main/Chat1.png?raw=true)
+
+![SnapShot 1](https://github.com/Aman-Ladla/Chat-web-app-reactjs/blob/main/Chat2.png?raw=true)
